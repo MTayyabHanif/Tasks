@@ -88,15 +88,38 @@
             <footer id="main-footer"><p>Coded & Designed by <a href="https://miguelpiedrafita.com/" title="Miguel Piedrafita" rel="external">Miguel Piedrafita</a>. Theme originally designed by <a href="https://twitter.com/damianmuti" title="Go to @damianmuti&#39;s Twitter" rel="external">@damianmuti</a></p></footer>
         </section>    </aside>
 
-    <section id="main" class="pure-u-1-2">
+        <section id="main" class="pure-u-1-2">
         <article class="page">
             <header class="page-header"><h1>Tasks</h1></header>
             <div class="page-content">
-                Sample text.
+                <h4>What is Tasks?</h4>
+<p>Tasks is an script that allows you to manage tasks and notes.</p>
+<h4>Demo:</h4>
+<p>You can access <a href="https://demo.miguelpiedrafita.com/tasks">https://demo.miguelpiedrafita.com/tasks</a> and create an account to test the script. NOTE: In the demo, all the data is deleted periodically. In the script, this doesn't happen.</p>
+<h4>Requirements:</h4>
+<p>- PHP 5.5.9 or higher</p>
+<h4>Installation:</h4>
+<ol>
+<li>Download lastest release from <a href="https://github.com/m1guelpiedrafita/Tasks/archive/master.zip">here</a>.</li>
+<li>Upload all the files to your server.</li>
+<li>Edit site name, timezone, site URL, site email and language at includes/config.php.</li>
+<li>Access the script and create an account using the register form.</li>
+<li>OPTIONAL: If you want a private install, change <code>$signupstatus = true;</code> to <code>$signupstatus = true;</code> to disable the signup form.</li>
+<li>Enjoy!</li>
+</ol>
+<!--- h4>Errors:</h4>
+<p>All the interesting activity is logged to the table 'activity' with an activityId. The activityId can be used to identify errors in production or to log any strange activity. Only IP Adress, User-Agent, ActivityId and ActivityTitle is logged.</p ---!>
+<h4>Credits:</h4>
+<ul>
+<li><a href="https://projects.miguelpiedrafita.com">Miguel Piedrafita</a></li>
+<li><a href="https://php.net">PHP</a></li>
+</ul>
+<p>Copyright (C) Miguel Piedrafita. Use of this work is subject to Mozilla Public License 2.0</p>
             </div>
         </article>
     </section>
 </div>
+
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"></script>')</script>
 <script src="js/jquery.fitvids.js"></script>
